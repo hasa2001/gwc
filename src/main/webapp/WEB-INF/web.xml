@@ -4,7 +4,9 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <!-- jsp-inheritance-prefix, jsp-inheritance-suffix can be omitted.-->
-
+<!--<listener>-->
+<!--    <listener-class>com.web.gwc.listner.ContextListener</listener-class>-->
+<!--</listener>-->
     <context-param>
         <param-name>jsp-inheritance-prefix</param-name>
         <param-value>/WEB-INF/views/layout/</param-value>

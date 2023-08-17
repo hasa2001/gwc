@@ -1,6 +1,8 @@
-<%@ taglib uri="http://kwonnam.pe.kr/jsp/template-inheritance" prefix="layout"%>
+<%@ taglib uri="http://callidora.lk/jsp/template-inheritance" prefix="layout"%>
+
+
 <layout:extends name="base">
-    <layout:put block="content">
+    <layout:put block="content" type="REPLACE">
         <main class="main">
             <div class="intro-section">
                 <div class="swiper-container swiper-theme nav-inner pg-inner animation-slider pg-xxl-hide pg-show nav-xxl-show nav-hide"
