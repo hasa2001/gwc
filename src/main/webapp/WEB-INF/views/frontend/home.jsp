@@ -2,6 +2,10 @@
 
 
 <layout:extends name="base">
+    <layout:put block="style" type="REPLACE">
+        <!-- Default CSS -->
+        <link rel="stylesheet" type="text/css" href="${BASE_URL}assets/css/demo2.min.css">
+    </layout:put>
     <layout:put block="content" type="REPLACE">
         <main class="main">
             <div class="intro-section">

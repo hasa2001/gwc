@@ -46,9 +46,11 @@
   <link rel="stylesheet" href="${BASE_URL}assets/vendor/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" type="text/css" href="${BASE_URL}assets/vendor/animate/animate.min.css">
   <link rel="stylesheet" type="text/css" href="${BASE_URL}assets/vendor/magnific-popup/magnific-popup.min.css">
-
+<layout:block name="style">
   <!-- Default CSS -->
-  <link rel="stylesheet" type="text/css" href="${BASE_URL}assets/css/demo2.min.css">
+  <link rel="stylesheet" type="text/css" href="${BASE_URL}assets/css/style.min.css">
+</layout:block>
+
 </head>
 
 <body class="home">
@@ -829,7 +831,11 @@
 <script src="${BASE_URL}assets/vendor/zoom/jquery.zoom.js"></script>
 
 <!-- Main Js -->
-<script src="${BASE_URL}assets/js/main.min.js"></script>
+<script src="${BASE_URL}assets/js/main.js"></script>
+<script>
+  const BASE_URL =${BASE_URL}
+</script>
+<layout:block name="script"></layout:block>
 </body>
 
 </html>
